@@ -1,0 +1,16 @@
+PODS:
+  - KKLevitator (1.0.0)
+
+DEPENDENCIES:
+  - KKLevitator (from `../`)
+
+EXTERNAL SOURCES:
+  KKLevitator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKLevitator: f1bf7d9ff3bbc733c8a2f1de788fbdf151c55d0f
+
+PODFILE CHECKSUM: 68fbfd95650ba22d4676cd56b8e06bc3353f5183
+
+COCOAPODS: 1.11.2

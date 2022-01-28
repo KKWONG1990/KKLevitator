@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		167C53A5ABB5550A5A4CE34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2459E55EAC5D234D73D01511 /* KKLevitator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKLevitator.podspec; path = ../KKLevitator.podspec; sourceTree = "<group>"; };
+		167C53A5ABB5550A5A4CE34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2459E55EAC5D234D73D01511 /* KKLevitator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKLevitator.podspec; path = ../KKLevitator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2698F3551362181F7F647EA6 /* Pods-KKLevitator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKLevitator_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKLevitator_Example/Pods-KKLevitator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B3A6D7C3D2A0D473965A3E8 /* Pods-KKLevitator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKLevitator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKLevitator_Tests/Pods-KKLevitator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KKLevitator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKLevitator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87748ABB53A17838774066E1 /* Pods_KKLevitator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLevitator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BFB78C517999AB90ADC249 /* Pods_KKLevitator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLevitator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB2CF2B289F15262F10C0BCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB2CF2B289F15262F10C0BCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				5B3A6D7C3D2A0D473965A3E8 /* Pods-KKLevitator_Tests.debug.xcconfig */,
 				7021BA05276C0103B0CBA038 /* Pods-KKLevitator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "kkwong90@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 86UPY7S886;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -449,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 2698F3551362181F7F647EA6 /* Pods-KKLevitator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86UPY7S886;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLevitator/KKLevitator-Prefix.pch";
 				INFOPLIST_FILE = "KKLevitator/KKLevitator-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 7BD02F99DF696FF5F948745C /* Pods-KKLevitator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86UPY7S886;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLevitator/KKLevitator-Prefix.pch";
 				INFOPLIST_FILE = "KKLevitator/KKLevitator-Info.plist";
