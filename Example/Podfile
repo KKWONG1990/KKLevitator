@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KKLevitator_Example' do
+  pod 'KKLevitator', :path => '../'
+
+  target 'KKLevitator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
